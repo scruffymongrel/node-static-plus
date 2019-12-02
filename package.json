@@ -1,0 +1,37 @@
+{
+  "name": "node-static-plus",
+  "version": "1.0.0",
+  "description": "A super-simple static web server with optional HTTP Basic Auth and local HTTPS via self-signed certificates.",
+  "main": "index.js",
+  "keywords": [
+    "basic-auth",
+    "dev",
+    "dokku",
+    "heroku",
+    "http",
+    "https",
+    "local",
+    "node-static",
+    "static",
+    "server",
+    "ssl",
+    "tls"
+  ],
+  "scripts": {
+    "demo": "cd demo && node ."
+  },
+  "author": "Andy Dennis",
+  "homepage": "https://github.com/scruffymongrel/node-static-plus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scruffymongrel/node-static-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scruffymongrel/node-static-plus/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "node-static": "^0.7.11"
+  }
+}
